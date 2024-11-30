@@ -6,11 +6,11 @@ jobs:
     check:
         runs-on: ubuntu-latest
         steps:
-              name: Output Date
+            - name: Output Date
               run: date
-              name: Test wget
+            - name: Test wget
               run: wget --version
-              name: Test curl
+            - name: Test curl
               run: curl --version
 
 
