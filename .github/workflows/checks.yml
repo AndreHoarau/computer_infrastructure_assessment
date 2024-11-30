@@ -3,14 +3,12 @@ name: Check Software
 on: [workflow_dispatch]
 
 jobs:
-    check:
-        runs-on: ubuntu-latest
-        steps:
-            - name: Output Date
-              run: date
-            - name: Test wget
-              run: wget --version
-            - name: Test curl
-              run: curl --version
-
-
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Output Date
+        run: date
+      - name: Test wget
+        run: wget --version
+      - name: Test curl
+        run: curl --version
