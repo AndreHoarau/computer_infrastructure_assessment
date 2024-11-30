@@ -8,7 +8,7 @@ jobs:
     steps:
       - name: Output Date
         run: date
-      -  name: Test wfet
+      - name: Test wfet
         run: wget --version
       - name: Test curl
         run: curl --version
