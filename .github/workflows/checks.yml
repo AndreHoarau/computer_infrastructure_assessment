@@ -1,6 +1,6 @@
 name: Check software
 
-on: worokflow_dispatch
+on: workflow_dispatch
 
 jobs:
   check:
