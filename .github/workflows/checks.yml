@@ -1,7 +1,7 @@
 name: Check software
 
-on: 
-workflow_dispatch:
+on:
+  workflow_dispatch:
 
 jobs:
   check:
@@ -9,7 +9,7 @@ jobs:
     steps:
       - name: Output Date
         run: date
-      - name: Test wfet
+      - name: Test wget
         run: wget --version
       - name: Test curl
         run: curl --version
