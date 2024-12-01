@@ -1,6 +1,7 @@
 name: Run Weather Script and Commit Changes
 
 on:
+  workflow_dispatch:  # Manually trigger the workflow
   schedule:
     - cron: '0 10 * * *'  # Every day at 10:00 AM UTC
 
