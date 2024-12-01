@@ -1,6 +1,7 @@
 name: Run Weather Script
 
 on:
+  workflow_dispatch:
   schedule:
     - cron: '0 10 * * *'  # Every day at 10:00 AM UTC
 
