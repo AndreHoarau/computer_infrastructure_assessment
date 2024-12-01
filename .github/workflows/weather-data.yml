@@ -1,0 +1,16 @@
+name: Run Weather Script
+
+on:
+  schedule:
+    - cron: '0 10 * * *'  # Every day at 10:00 AM UTC
+
+jobs:
+  run-weather-script:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3  # Checkout your repository to access the script
+
+      - name: Run Weather Script
+        run: ./weather.sh  # Execute the script
+
