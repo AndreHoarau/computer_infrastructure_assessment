@@ -67,17 +67,25 @@ This repository is structured to be clear, concise, and professional for technic
 ## How to Use This Repository
 
 ### Prerequisites
+#### Run locally
+- Install [Visual Studio Code](https://code.visualstudio.com/Download) as it is an ideal shell to use locally.
+- Install [Anaconda](https://www.anaconda.com/download/success) this will give you python with additional packages. 
 - Install [Git](https://git-scm.com/) and clone this repository:
   ```bash
-  git clone https://github.com/<username>/<repository_name>.git
+  git clone https://github.com/AndreHoarau/computer_infrastructure_assessment/tree/main
   ```
-- Ensure you have Bash and Python (with Jupyter Notebook) installed.
+#### Run in the cloud
+- Navigate to your github account.
+- If you do not have a repository made yet make one [How to make a repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/quickstart-for-repositories)
+- Then navigate to *code* and select [*launch codespaces*](https://docs.github.com/en/codespaces/developing-in-a-codespace/creating-a-codespace-for-a-repository)
+
+#### Regardless of local run or cloud
 - Install the required Python packages:
   ```bash
   pip install -r requirements.txt
   ```
 
-### Running the Script
+### Running the Script applicable to both local and cloud
 - Make `weather.sh` executable:
   ```bash
   chmod +x weather.sh
@@ -89,6 +97,13 @@ This repository is structured to be clear, concise, and professional for technic
 
 ### Viewing the Notebook
 Open `weather.ipynb` in Jupyter Notebook to explore the task explanations and data analysis.
+This can be done either in the visual studio code through the file explorer.
+Alternatively on windows open cmd prompt
+```
+cd <location of cloned repository>
+jupyter notebook
+```
+
 
 ---
 
