@@ -1,6 +1,6 @@
-# Higher Diploma in Computing - Data Analytics Module Assessment
+# Higher Diploma in Computing - Data Analytics Module Assessment - Module: Computer Infrastructure
 
-Welcome to the repository for my **Data Analytics module** in the Higher Diploma in Computing program at **ATU Galway**. This repository contains my work for the assessment components due on **Friday, 20 December 2024**.
+This repository contains my work for the assessment components due on **Friday, 20 December 2024**.
 
 ## Purpose of the Assessment
 
@@ -30,10 +30,10 @@ This repository is structured to be clear, concise, and professional for technic
 
 ### Key Files and Directories
 - **`data/`**: Contains subdirectories for timestamp and weather data.
-  - **`timestamps/`**: Stores timestamp files generated during tasks.
-  - **`weather/`**: Stores weather data files downloaded from Met Éireann.
+  - **`timestamps/`**: Stores timestamp files generated during tasks 2-4.
+  - **`weather/`**: Stores weather data files downloaded from Met Éireann and data from tasks 5-7.
 - **`weather.sh`**: Bash script automating weather data downloads and timestamping.
-- **`weather.ipynb`**: Jupyter Notebook containing a report summarizing the tasks, Python analysis of weather data, and insights into the dataset.
+- **`weather.ipynb`**: Jupyter Notebook containing a report summarizing the tasks, Python analysis of weather data using pandas, and insights into the dataset.
 - **`.github/workflows/weather-data.yml`**: GitHub Actions workflow for automating daily weather data downloads and repository updates.
 - **`.gitignore`**: Specifies files and directories to exclude from version control.
 - **`README.md`**: Provides an overview of the repository and its contents.
@@ -72,9 +72,9 @@ This repository is structured to be clear, concise, and professional for technic
   git clone https://github.com/<username>/<repository_name>.git
   ```
 - Ensure you have Bash and Python (with Jupyter Notebook) installed.
-- Install necessary Python packages:
+- Install the required Python packages:
   ```bash
-  pip install pandas
+  pip install -r requirements.txt
   ```
 
 ### Running the Script
@@ -113,14 +113,14 @@ Regular commits and structured updates reflect the progress throughout the semes
 
 ## License
 
-This project is licensed for educational purposes under ATU Galway's guidelines.
+This project is licensed for educational purposes under ATU Galway's guidelines located on the [StudentHub](https://studenthub.atu.ie/).
 
 ---
 
 ## Acknowledgements
 
-Thanks to ATU Galway lecturers for guidance throughout the semester, and to Met Éireann for providing the weather data used in this project.
+Thanks to [Dr. Ian McLoughlin](https://github.com/ianmcloughlin) for guidance throughout the semester, and to [Met Éireann](https://www.met.ie/climate/available-data) for providing the weather data used in this project.
 
 ---
 
-For any questions or feedback, feel free to reach out via this repository's issue tracker.
+For any questions or feedback, feel free to reach out to me on [LinkedIn](https://www.linkedin.com/in/andre-hoarau/)
