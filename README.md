@@ -50,7 +50,7 @@ This repository is structured to be clear, concise, and professional for technic
 5. **Timestamp the Data**: Applied timestamped naming to downloaded files.
 6. **Write the Script**: Developed `weather.sh` to automate the above processes.
 7. **Notebook Report**: Documented tasks, commands, and their purpose in `weather.ipynb`.
-8. **Analyze Weather Data**: Utilized `pandas` to analyze and summarize weather data.
+8. **Analyse Weather Data**: Utilized `pandas` to analyse and summarise weather data.
 
 ### Project (40%)
 - Created a GitHub Actions workflow (`weather-data.yml`) to:
