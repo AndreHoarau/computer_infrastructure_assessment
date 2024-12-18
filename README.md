@@ -1,5 +1,5 @@
 # Higher Diploma in Computing - Data Analytics Module Assessment - Module: Computer Infrastructure
-![photo of ATU Galway](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.findacourse.ie%2Fcollege-open-days%2Fatu-galway-open-day%2F&psig=AOvVaw0FTaCj1gKBQXiRpPK6CdKv&ust=1734646384318000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCIj2x8arsooDFQAAAAAdAAAAABAE)
+![photo of ATU Galway](https://www.midwestradio.ie/images/Image_of_ATU_Sligo_Campus.jpg)
 This repository contains my work for the assessment components due on **Friday, 20 December 2024**.
 
 ## Purpose of the Assessment
